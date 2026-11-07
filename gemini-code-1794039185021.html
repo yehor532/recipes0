@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Смачно & Просто — Сайт кулінарних рецептів</title>
+    <!-- Tailwind CSS для загальної сітки -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body style="background-color: #fffbeb; color: #1f2937; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+
+    <!-- Шапка сайту -->
+    <header style="background: linear-gradient(to right, #d97706, #ea580c); color: #ffffff; padding: 24px 16px; text-align: center;">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+            <div>
+                <h1 style="font-size: 28px; font-weight: 800; font-family: 'Georgia', serif; color: #ffffff;" align="center">
+                    <i class="fas font-utensils"></i> Світ Кулінарних Рецептів "Смачно & Просто"
+                </h1>
+                <h6 style="color: #fef3c7; font-size: 12px; margin-top: 4px;" align="center">
+                    <u>Твоє щоденне джерело смачного натхнення</u>
+                </h6>
+            </div>
+            <p style="color: #fef3c7; font-size: 14px;" align="right">
+                Ласкаво просимо на сайт з <b>найкращими</b> та <i>найсмачнішими</i> <u>рецептами</u>!
+            </p>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto p-6 space-y-10">
+
+        <!-- Hero секція -->
+        <section style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=80'); background-size: cover; background-position: center; border-radius: 16px; padding: 40px; color: #ffffff; text-align: center;">
+            <div class="max-w-2xl mx-auto">
+                <h2 style="font-size: 32px; font-weight: bold; font-family: 'Comic Sans MS', cursive, sans-serif; color: #fef08a;" align="center">
+                    Знайдіть свій ідеальний рецепт на сьогодні
+                </h2>
+                <p style="color: #fef3c7; font-size: 16px; margin-top: 8px;" align="center">
+                    Прості, швидкі та неймовірно смачні страви для всієї родини.
+                </p>
+            </div>
+        </section>
+
+        <!-- Каталог рецептів -->
+        <section>
+            <h3 style="font-size: 24px; font-weight: bold; color: #78350f; font-family: 'Arial Black', Gadget, sans-serif; border-bottom: 3px solid #fbbf24; padding-bottom: 8px; margin-bottom: 24px;" align="left">
+                Популярні Рецепти
+            </h3>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                
+                <!-- Картка 1: Борщ -->
+                <div class="bg-white rounded-2xl shadow-md overflow-hidden border border-gray-100 hover:shadow-lg transition">
+                    <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=80" alt="Український Борщ" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h4 style="font-size: 20px; font-weight: bold; color: #991b1b; font-family: 'Trebuchet MS', sans-serif;">
+                            Домашній Український Борщ
+                        </h4>
+                        <p style="color: #4b5563; font-size: 14px; margin-bottom: 16px;">
+                            <b>Традиційна українська страва</b> з <i>насиченим смаком</i> та <u>чудовим ароматом</u>.
+                        </p>
+
+                        <div class="space-y-4 text-sm">
+                            <div>
+                                <h5 style="font-weight: bold; color: #92400e; margin-bottom: 4px;">Інгредієнти:</h5>
+                                <ul class="list-disc list-inside space-y-1 p-3 rounded-lg" style="background-color: #fffbeb; color: #374151;">
+                                    <li><b>Буряк</b> — 1 шт.</li>
+                                    <li>Картопля — 3 шт.</li>
+                                    <li><i>Свіжа капуста</i> — 200 г</li>
+                                    <li><u>М'ясний бульйон</u> — 2 л</li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <h5 style="font-weight: bold; color: #92400e; margin-bottom: 4px;">Кроки приготування:</h5>
+                                <ol class="list-decimal list-inside space-y-1 p-3 rounded-lg" style="background-color: #fffbeb; color: #374151;">
+                                    <li><b>Зваріть</b> м'ясний бульйон.</li>
+                                    <li><i>Наріжте</i> та обсмажте буряк із томатною пастою.</li>
+                                    <li><u>Додайте</u> картоплю та капусту в каструлю і варіть до готовності.</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Картка 2: Панкейки -->
+                <div class="bg-white rounded-2xl shadow-md overflow-hidden border border-gray-100 hover:shadow-lg transition">
+                    <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=800&q=80" alt="Панкейки" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h4 style="font-size: 20px; font-weight: bold; color: #d97706; font-family: 'Trebuchet MS', sans-serif;">
+                            Пухкі Панкейки на Сніданок
+                        </h4>
+                        <p style="color: #4b5563; font-size: 14px; margin-bottom: 16px;">
+                            <b>Ніжні та повітряні</b> млинці, які <i>ідеально пасують</i> до <u>ранкової кави</u>.
+                        </p>
+
+                        <div class="space-y-4 text-sm">
+                            <div>
+                                <h5 style="font-weight: bold; color: #92400e; margin-bottom: 4px;">Інгредієнти:</h5>
+                                <ul class="list-disc list-inside space-y-1 p-3 rounded-lg" style="background-color: #fffbeb; color: #374151;">
+                                    <li><b>Борошно</b> — 200 г</li>
+                                    <li>Молоко — 200 мл</li>
+                                    <li><i>Яйце</i> — 1 шт.</li>
+                                    <li><u>Цукор та розпушувач</u> — за смаком</li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <h5 style="font-weight: bold; color: #92400e; margin-bottom: 4px;">Кроки приготування:</h5>
+                                <ol class="list-decimal list-inside space-y-1 p-3 rounded-lg" style="background-color: #fffbeb; color: #374151;">
+                                    <li><b>Збийте</b> яйце з цукром та молоком.</li>
+                                    <li><i>Всипте</i> борошно з розпушувачем і замісіть тісто.</li>
+                                    <li><u>Обсмажуйте</u> на сухій сковороді з двох боків.</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Картка 3: Піца Маргарита -->
+                <div class="bg-white rounded-2xl shadow-md overflow-hidden border border-gray-100 hover:shadow-lg transition">
+                    <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80" alt="Італійська Піца" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h4 style="font-size: 20px; font-weight: bold; color: #b91c1c; font-family: 'Trebuchet MS', sans-serif;">
+                            Італійська Піца Маргарита
+                        </h4>
+                        <p style="color: #4b5563; font-size: 14px; margin-bottom: 16px;">
+                            <b>Класична піца</b> з <i>соковитими томатами</i> та <u>тягучим сиром Моцарела</u>[cite: 9].
+                        </p>
+
+                        <div class="space-y-4 text-sm">
+                            <div>
+                                <h5 style="font-weight: bold; color: #92400e; margin-bottom: 4px;">Інгредієнти:</h5>
+                                <ul class="list-disc list-inside space-y-1 p-3 rounded-lg" style="background-color: #fffbeb; color: #374151;">
+                                    <li><b>Тісто для піци</b> — 300 г</li>
+                                    <li>Сир Моцарела — 150 г</li>
+                                    <li><i>Томатний соус</i> — 3 ст. л.</li>
+                                    <li><u>Свіжий базилік</u> — кілька листочків</li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <h5 style="font-weight: bold; color: #92400e; margin-bottom: 4px;">Кроки приготування:</h5>
+                                <ol class="list-decimal list-inside space-y-1 p-3 rounded-lg" style="background-color: #fffbeb; color: #374151;">
+                                    <li><b>Розкачайте</b> тісто та змастіть томатним соусом.</li>
+                                    <li><i>Викладіть</i> нарізаний сир Моцарела.</li>
+                                    <li><u>Випікайте</u> при 220°C протягом 10-12 хвилин, перед подачею прикрасьте базиліком.</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Картка 4: Салат Цезар -->
+                <div class="bg-white rounded-2xl shadow-md overflow-hidden border border-gray-100 hover:shadow-lg transition">
+                    <img src="https://images.unsplash.com/photo-1546793665-c74683f339c1?auto=format&fit=crop&w=800&q=80" alt="Салат Цезар" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h4 style="font-size: 20px; font-weight: bold; color: #15803d; font-family: 'Trebuchet MS', sans-serif;">
+                            Свіжий Салат Цезар
+                        </h4>
+                        <p style="color: #4b5563; font-size: 14px; margin-bottom: 16px;">
+                            <b>Легкий та хрусткий салат</b> з <i>ніжним курячим філе</i> та <u>фірмовим соусом</u>[cite: 9].
+                        </p>
+
+                        <div class="space-y-4 text-sm">
+                            <div>
+                                <h5 style="font-weight: bold; color: #92400e; margin-bottom: 4px;">Інгредієнти:</h5>
+                                <ul class="list-disc list-inside space-y-1 p-3 rounded-lg" style="background-color: #fffbeb; color: #374151;">
+                                    <li><b>Куряче філе</b> — 200 г</li>
+                                    <li>Листя салату Ромен — 100 г</li>
+                                    <li><i>Сухарики (крутони)</i> — 50 г</li>
+                                    <li><u>Сир Пармезан та соус Цезар</u> — за смаком</li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <h5 style="font-weight: bold; color: #92400e; margin-bottom: 4px;">Кроки приготування:</h5>
+                                <ol class="list-decimal list-inside space-y-1 p-3 rounded-lg" style="background-color: #fffbeb; color: #374151;">
+                                    <li><b>Обсмажте</b> куряче філе до золотистої скоринки та наріжте шматочками.</li>
+                                    <li><i>Нарвіть</i> листя салату, додайте куряче філе та сухарики.</li>
+                                    <li><u>Полийте</u> соусом Цезар і посипте тертим Пармезаном.</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Горизонтальна лінія розділення -->
+        <hr style="border: 0; height: 2px; background: #f59e0b; margin: 30px 0;">
+
+        <!-- БЛОК ПРО АВТОРА З ПОСИЛАННЯМ (Згідно зі скриншотом прикладу) -->
+        <section style="background: linear-gradient(to right, #fef3c7, #ffedd5); border: 2px solid #fcd34d; border-radius: 16px; padding: 24px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);" class="space-y-6">
+            
+            <!-- Розділ 1: Про автора -->
+            <div>
+                <h2 style="font-size: 24px; font-weight: bold; color: #78350f; font-family: 'Verdana', sans-serif;" align="left">
+                    <i class="fas font-user-graduate"></i> Про автора
+                </h2>
+                <p style="color: #1f2937; font-size: 15px; text-align: justify; margin-top: 8px;">
+                    Мене звати <b>Єгор Муравицький</b> й це мій перший створений сайт[cite: 11]! Я навчаюся веброзробці та кулінарії, 
+                    і у своїй професійній творчості прагну поєднувати зручний дизайн з користю для користувачів[cite: 2].
+                </p>
+                
+                <!-- Застосовано тег <a> за вашим прикладом -->
+                <p style="margin-top: 10px;">
+                    <b>Навчальний заклад / Спеціальність:</b> 
+                    <a href="https://www.google.com" target="_blank" style="color: #d97706; font-weight: bold; text-decoration: underline;">Перейти на Google</a>[cite: 13]
+                </p>
+            </div>
+
+            <!-- Розділення між розділами -->
+            <hr style="border: 0; height: 1px; background: #fcd34d;">
+
+            <!-- Розділ 2: Мої роботи -->
+            <div>
+                <h3 style="font-size: 20px; font-weight: bold; color: #78350f;">Мої роботи</h3>
+                <p style="color: #4b5563; font-size: 14px; margin-bottom: 8px;">Список моїх перших вебпроєктів:</p>
+                <ul class="list-disc list-inside space-y-1 bg-white p-4 rounded-xl border border-amber-200 text-sm">
+                    <li><b>Сайт кулінарних рецептів "Смачно & Просто"</b> — мій перший повноцінний сайт.</li>
+                    <li>Персональна вебсторінка-візитка.</li>
+                    <li>Навчальні завдання з HTML5, CSS3 та JavaScript.</li>
+                </ul>
+            </div>
+
+            <!-- Розділення між розділами -->
+            <hr style="border: 0; height: 1px; background: #fcd34d;">
+
+            <!-- Розділ 3: Мої навички -->
+            <div>
+                <h3 style="font-size: 20px; font-weight: bold; color: #78350f;">Мої навички</h3>
+                <p style="color: #4b5563; font-size: 14px; margin-bottom: 8px;">Ключові вміння та технології:</p>
+                <ul class="list-disc list-inside space-y-1 bg-white p-4 rounded-xl border border-amber-200 text-sm">
+                    <li>Структурування вебсторінок за допомогою <b>HTML5</b> (заголовки, списки, таблиці, посилання, ілюстрації)[cite: 1, 5, 7, 8, 11].</li>
+                    <li>Стилізація елементів через <i>CSS3 / Tailwind CSS</i>[cite: 10].</li>
+                    <li>Адаптивна верстка для ПК та смартфонів.</li>
+                </ul>
+            </div>
+
+            <!-- Розділення між розділами -->
+            <hr style="border: 0; height: 1px; background: #fcd34d;">
+
+            <!-- Зведена таблиця -->
+            <div class="overflow-x-auto">
+                <h3 style="font-size: 18px; font-weight: bold; color: #78350f; margin-bottom: 8px;">Зведена таблиця:</h3>
+                <table style="width: 100%; border-collapse: collapse; background-color: #ffffff; border-radius: 8px; overflow: hidden; border: 1px solid #fde68a; font-size: 14px;" align="center">
+                    <thead>
+                        <tr style="background-color: #d97706; color: #ffffff; font-weight: bold; text-align: left;">
+                            <th style="padding: 12px; border-bottom: 1px solid #fcd34d;" align="left">Роботи (Проєкти)</th>
+                            <th style="padding: 12px; border-bottom: 1px solid #fcd34d;" align="center">Досягнення</th>
+                            <th style="padding: 12px; border-bottom: 1px solid #fcd34d;" align="right">Навички</th>
+                        </tr>
+                    </thead>
+                    <tbody style="color: #374151;">
+                        <tr style="border-bottom: 1px solid #fef3c7;">
+                            <td style="padding: 12px;" align="left">Сайт кулінарних рецептів</td>
+                            <td style="padding: 12px;" align="center">Перший успішно створений сайт</td>
+                            <td style="padding: 12px;" align="right">HTML5 / CSS3 / Tailwind CSS</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid #fef3c7;">
+                            <td style="padding: 12px;" align="left">Особисте веб-портфоліо</td>
+                            <td style="padding: 12px;" align="center">Розробка власного дизайну</td>
+                            <td style="padding: 12px;" align="right">Адаптивна верстка (Responsive)</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 12px;" align="left">Навчальні JS-проєкти</td>
+                            <td style="padding: 12px;" align="center">Освоєння базової логіки програмування</td>
+                            <td style="padding: 12px;" align="right">Основи JavaScript & Git</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Підвал сайту -->
+    <footer style="background-color: #1f2937; color: #d1d5db; text-align: center; padding: 24px 0; margin-top: 48px;" align="center">
+        <p style="font-size: 14px; font-family: 'Times New Roman', Times, serif;" align="center">
+            © 2026 Кулінарний сайт. Всі права захищено.
+        </p>
+    </footer>
+
+</body>
+</html>
